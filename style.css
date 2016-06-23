@@ -1,10 +1,23 @@
+img {
+	width: 450px;
+	float: right;
+}
+#container {
+margin-top: 5%;
+}
 .command {
 	width: 40%;
 }
 .description {
 	width: 60%;
+	/*color: white;
 }
+/*.description:hover {
+	color: black;
+}*/
 table {
+	margin-top: 2%;
+	margin-bottom: 2%;
 	text-align: left;
 	width: 50%;
 }
@@ -14,4 +27,7 @@ tr {
 caption {
 	text-align: left;
 	font-size: 20px;
+}
+footer {
+	margin-top: 8%;
 }
