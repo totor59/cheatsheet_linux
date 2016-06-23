@@ -1,0 +1,16 @@
+/*.command {
+	width: 40%;
+}
+.description {
+	width: 60%;
+}
+table {
+	margin: auto;
+	text-align: left;
+}
+tr {
+	border: 1px solid black;
+}
+ul {
+	display: block;
+}
