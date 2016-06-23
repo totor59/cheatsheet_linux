@@ -1,3 +1,5 @@
+/*------------GENERAL-----------*/
+
 body {
 	background-image:radial-gradient(grey ,white )
 }
@@ -9,6 +11,11 @@ img {
 	width: 450px;
 	float: right;
 }
+
+
+/*----------TABLE------------*/
+
+
 #container {
 margin-top: 5%;
 }
@@ -20,9 +27,6 @@ margin-top: 5%;
 	width: 60%;
 	color: white;
 	font-family: "Ubuntu Condensed";
-}
-.description:hover {
-	color: black;
 }
 table {
 	margin-top: 2%;
@@ -39,18 +43,51 @@ caption {
 	font-family: "Special Elite";
 	text-decoration: underline;
 }
+
+/*---------FOOTER-------------*/
+
+
 footer {
 	margin-top: 8%;
 }
-@media screen and (max-width: 924px)
 
-{	img {
+
+/*-------------EFFECTS------------*/
+
+
+.description:hover {
+	color: black;
+	cursor: not-allowed;
+}
+
+
+/*----------RESPONSIVE----------*/
+
+
+@media screen and (max-width: 924px){
+
+	img {
 	 width: 300px; 
 }
-@media screen and (max-width: 620px)
-{       img {
-	width: 100px;
+@media screen and (max-width: 620px){
+	img {
+	width: 200px;
 }
 	h2 {
 	font-size: 30px;
 	}
+@media screen and (max-width: 480px){
+	img {
+	width: 150px;
+}
+@media screen and (max-width: 426px){
+	img {
+	width: 100px;
+}
+@media screen and (max-width: 380px){
+	img {
+	width: 50px;
+} 	
+
+	
+}
