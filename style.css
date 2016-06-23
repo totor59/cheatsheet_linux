@@ -1,3 +1,7 @@
+h2 { 
+	font-family: "Special Elite";
+	font-size: 60px;
+}
 img {
 	width: 450px;
 	float: right;
@@ -7,10 +11,12 @@ margin-top: 5%;
 }
 .command {
 	width: 40%;
+	font-family: "Ubuntu Mono";
 }
 .description {
 	width: 60%;
 	color: white;
+	font-family: "Ubuntu Condensed";
 }
 .description:hover {
 	color: black;
@@ -21,12 +27,14 @@ table {
 	text-align: left;
 	width: 50%;
 }
-tr {
-	border: 1px solid black;
+td {
+	font-size: 20px;
 }
 caption {
 	text-align: left;
-	font-size: 20px;
+	font-size: 24px;
+	font-family: "Special Elite";
+	text-decoration: underline;
 }
 footer {
 	margin-top: 8%;
