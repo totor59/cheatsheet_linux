@@ -1,16 +1,17 @@
-/*.command {
+.command {
 	width: 40%;
 }
 .description {
 	width: 60%;
 }
 table {
-	margin: auto;
 	text-align: left;
+	width: 50%;
 }
 tr {
 	border: 1px solid black;
 }
-ul {
-	display: block;
+caption {
+	text-align: left;
+	font-size: 20px;
 }
