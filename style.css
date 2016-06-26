@@ -69,6 +69,7 @@ footer {
 	img {
 	 width: 300px; 
 }
+}
 @media screen and (max-width: 620px){
 	img {
 	width: 200px;
@@ -76,18 +77,19 @@ footer {
 	h2 {
 	font-size: 30px;
 	}
+}
 @media screen and (max-width: 480px){
 	img {
 	width: 150px;
+}
 }
 @media screen and (max-width: 426px){
 	img {
 	width: 100px;
 }
+}
 @media screen and (max-width: 380px){
 	img {
 	width: 50px;
-} 	
-
-	
+} 		
 }
